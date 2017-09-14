@@ -5,4 +5,5 @@ tmp/
 miniconda3/
 anaconda/
 data/
+conda_env_setup/
 .envrc

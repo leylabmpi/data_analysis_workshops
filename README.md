@@ -9,7 +9,9 @@ A workshop covering the basic tools of bioinformatics
 
 `git clone git@github.com:leylabmpi/conda_env_setup.git`
 
-Follow the instructions listed in the README.md file.
+`cd conda_env_setup`
+
+Follow the instructions listed in the `README.md` file.
 
 
 ***
