@@ -7,18 +7,9 @@ A workshop covering the basic tools of bioinformatics
 
 ## Install miniconda & create conda environments
 
-`./setup/miniconda_setup.sh`
+`git clone git@github.com:leylabmpi/conda_env_setup.git`
 
-## (optional) Install & configure RISE for creating Jupyter presentations
-
-`./setup/RISE_setup.sh`
-
-
-# Documentation
-
-The documentation is a set of Jupyter notebook files.
-
-See [notebooks](./notebooks)
+Follow the instructions listed in the README.md file.
 
 
 ***
