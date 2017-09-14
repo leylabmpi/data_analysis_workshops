@@ -3,6 +3,17 @@ Ley Lab Data Analysis Workshop
 
 A workshop covering the basic tools of bioinformatics
 
+# Install
+
+## Install miniconda & create conda environments
+
+`./setup/miniconda_setup.sh`
+
+## (optional) Install & configure RISE for creating Jupyter presentations
+
+`./setup/RISE_setup.sh`
+
+
 # Documentation
 
 The documentation is a set of Jupyter notebook files.

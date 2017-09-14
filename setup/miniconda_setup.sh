@@ -1,6 +1,7 @@
 #!/bin/bash
 # miniconda install & setup
 
+
 # download
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
@@ -12,7 +13,7 @@ rm -f Miniconda3-latest-Linux-x86_64.sh
 # no backups
 touch ./miniconda3/DO_NOT_BACKUP_THIS_FOLDER
 
-# add conda to your path
+# add conda to PATH
 CONDA_PATH=`pwd`"/miniconda3/bin"
 export PATH=$CONDA_PATH:$PATH
 
@@ -61,12 +62,16 @@ conda install -y -n py3 pandas
 conda install -y -n py2 -c bioconda qiime
 
 # installing R packages
+
 ## tidyverse
 source activate py2
 Rscript tidyverse_install.R
 source activate py3
 Rscript tidyverse_install.R
+
 ## phyloseq
+source activate py2
+Rscript bioconductor_install.R
 source activate py3
 Rscript bioconductor_install.R
 
