@@ -3,55 +3,14 @@ Ley Lab Data Analysis Workshop
 
 A workshop covering the basic tools of bioinformatics
 
+# Documentation
 
-
-# Overview of tools
-
-## using the server & compute cluster
-
-* compute resources overview
-  * server
-  * compute cluster
-* projects
-* using the command line
-  * ssh 
-  * simple navigation
-  * top & htop
-  * SGE job submission
-    * qstat
-    * ganglia
-* conda environments
-  * why
-  * how 
-* jupyter notebooks
-  * setup
-  * features
-* data analysis with R
-  * basics
-  * essential R packages
-    * dplyr, tidyr, & ggplot
-* git
-  * why?
-  * Gitlab & Github
-  * how?
-* other useful tools
-  * Rstudio
-    * knitr
-  * [omicstools.com](https://omictools.com/)
-  * Shiny
-  * Plotly
-  
-
-## command
-
-# Interactive demo
-
-A demo on using notebooks, running a simple QIIME analysis, & 
+The documentation is a set of Jupyter notebook files.
 
 See [notebooks](./notebooks)
 
 
-
+***
 
 # Helpful code
 

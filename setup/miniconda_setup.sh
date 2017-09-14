@@ -61,11 +61,12 @@ conda install -y -n py3 pandas
 conda install -y -n py2 -c bioconda qiime
 
 # installing R packages
+## tidyverse
 source activate py2
-Rscript R_package_install.R
+Rscript tidyverse_install.R
 source activate py3
-Rscript R_package_install.R
+Rscript tidyverse_install.R
+## phyloseq
+source activate py3
+Rscript bioconductor_install.R
 
-# RISE for presentations
-
-conda install -c damianavila82 rise
