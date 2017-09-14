@@ -14,6 +14,15 @@ A workshop covering the basic tools of bioinformatics
 Follow the instructions listed in the `README.md` file.
 
 
+# Workshop materials
+
+The workshop materials consist of Jupyter notebooks.
+
+See the files in [./notebooks/](./notebooks/)
+
+
+
+
 ***
 
 # Helpful code
