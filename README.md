@@ -5,7 +5,22 @@ A workshop covering the basic tools of bioinformatics
 
 # Install
 
+## Workshop material
+
+Clone this repository:
+
+`git clone https://github.com/leylabmpi/data_analysis_workshops.git`
+
+Move to the repo directory:
+
+`cd data_analysis_workshops`
+
 ## Install miniconda & create conda environments
+
+> Note: this will install conda into the `data_analysis_workshops` directory.
+Thus, it will create a conda install (& conda environments) just for this workshop.
+If you already have a conda environment set up, This will override that other conda
+install, but just within the `data_analysis_workshops` directory.
 
 The `conda_env_setup` repository:
 
@@ -15,15 +30,9 @@ Move to the repo directory:
 
 `cd conda_env_setup`
 
-Follow the instructions listed in the `README.md` file to install conda & set up some conda environments.
+Follow the instructions listed in the `README.md` file to install conda & set up some conda environments:
 
-## Workshop material
-
-Clone this repository:
-
-`git clone https://github.com/leylabmpi/data_analysis_workshops.git`
-
-There's nothing to install (that was done by `conda_env_setup`).
+`cat README.md`
 
 
 # Workshop materials
