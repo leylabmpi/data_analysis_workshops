@@ -22,7 +22,7 @@ Thus, it will create a conda install (& conda environments) just for this worksh
 If you already have a conda environment set up, This will override that other conda
 install, but just within the `data_analysis_workshops` directory.
 
-The `conda_env_setup` repository:
+Clone the `conda_env_setup` repository:
 
 `git clone https://github.com/leylabmpi/conda_env_setup.git`
 
